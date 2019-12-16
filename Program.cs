@@ -39,13 +39,13 @@ namespace Simple_Calculator__Lamparas_
 
             else if (useoper == "*")
 			{
-                answer = firstnum + secondnum;
+                answer = firstnum * secondnum;
                 Console.WriteLine("\nAnswer:" + answer);
             }
 
             else if (useoper == "/")
 			{
-                answer = firstnum + secondnum;
+                answer = firstnum / secondnum;
                 Console.WriteLine("\nAnswer:" + answer);
             }
 
